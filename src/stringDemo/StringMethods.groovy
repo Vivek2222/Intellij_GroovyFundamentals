@@ -1,0 +1,4 @@
+package stringDemo
+
+class StringMethods {
+}

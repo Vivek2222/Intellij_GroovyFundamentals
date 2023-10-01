@@ -1,0 +1,4 @@
+package stringsDemo
+
+class stringsDemo {
+}
