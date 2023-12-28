@@ -1,4 +1,4 @@
-package datatypes
+package GroovyBasics.datatypes
 
 class ArraysDemo {
 

@@ -1,12 +1,13 @@
-package in.AT.classandobject
+package GroovyBasics.classandobject
 
-class Laptop {
+class Laptop_Class_Objects {
     def price
+    def brand
     def screenworkingcondition
 
     static main(args)
     {
-        Laptop dell= new Laptop()
+        Laptop_Class_Objects dell= new Laptop_Class_Objects()
         dell.login()
         dell.logout()
 
@@ -14,6 +15,7 @@ class Laptop {
         dell.screenworkingcondition= true
 
         println(dell.price)
+        println(dell.brand)
         println(dell.screenworkingcondition)
     }
 
