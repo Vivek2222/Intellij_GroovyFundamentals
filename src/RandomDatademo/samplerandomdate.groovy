@@ -3,7 +3,7 @@ import java.util.Random;
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
-class sample {
+class samplerandomdate {
      static String getDateStringForDateBefore(String format) {
         int maxDayDifference = 1000;
         LocalDate date = LocalDate.now();

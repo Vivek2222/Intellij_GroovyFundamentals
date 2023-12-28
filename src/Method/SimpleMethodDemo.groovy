@@ -1,4 +1,4 @@
-package in.AT.classandobject
+package Method
 
 class SimpleMethodDemo {
 
