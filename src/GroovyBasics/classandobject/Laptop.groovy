@@ -1,4 +1,4 @@
-package GroovyBasics
+package GroovyBasics.classandobject
 
 class Laptop {
 
@@ -13,13 +13,11 @@ class Laptop {
         lap.logout()
     }
 
-    def login()
-    {
+    def login() {
         println("System Logging In.")
     }
 
-    def logout()
-    {
+    def logout() {
         println("System Logging Out")
     }
 }

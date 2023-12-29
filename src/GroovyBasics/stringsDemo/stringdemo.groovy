@@ -1,11 +1,12 @@
-package stringsDemo
+package GroovyBasics.stringsDemo
 
 class stringdemo {
 
-    static main(args){
+    static main(args) {
+
         //java strings
 
-        String strLiteral = "This is using new keyword"
+        String strLiteral = "This is String Literals"
         println strLiteral
 
         String strNew = new String("This is using new keyword")
@@ -16,20 +17,22 @@ class stringdemo {
         //***************** Single Quote ***************
 
         def singleQuoteString = 'This is single Quote String'
-        println("Single Quote String: "+singleQuoteString)
+        println("Single Quote String: " + singleQuoteString)
 
         //**************** Triple Single Quote ***************
 
+        //Single slash using to remove the empty space
         def tripleSingleQuoteString = '''\
         This is Triple Single Quote String
         This is new line'''
-        println("Triple Single Quote String: "+tripleSingleQuoteString)
+        println("Triple Single Quote String: " + tripleSingleQuoteString)
 
         //**************** Double Quote ***************
 
         def sampleData = "Groovy"
         def doubleQuote = "This is double Quote String ${sampleData}" //Interpolation
         println(doubleQuote)
+
         //**************** Triple Double Quote ***************
 
         def tripleDoubleQuote = """This is double Quote String 
@@ -37,7 +40,7 @@ class stringdemo {
         println(tripleDoubleQuote)
 
         //**************** Slashy Quote ***************
-
+        //You cannot use slash in the slashy quotes
         def slashyString = /This is slashy String
         This is new line
         ${sampleData}/

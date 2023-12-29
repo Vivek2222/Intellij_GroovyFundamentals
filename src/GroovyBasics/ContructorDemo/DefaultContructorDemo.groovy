@@ -1,15 +1,13 @@
-package ContructorDemo
+package GroovyBasics.ContructorDemo
 
 class DefaultContructorDemo {
 
 
-    DefaultContructorDemo()
-    {
+    DefaultContructorDemo() {
         println("This is default constructor")
     }
 
-    static main(args)
-    {
+    static main(args) {
         DefaultContructorDemo defaultContructorDemo = new DefaultContructorDemo()
     }
 }
