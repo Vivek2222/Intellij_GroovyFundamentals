@@ -14,11 +14,11 @@ class ScientificCalculator extends AdvancedCalculator {
 
     }
 
-    def calculus() {
+    def static calculus() {
         println("Calculus Functions")
     }
 
-    def statistics() {
+    def static statistics() {
         println("Statistics Functions")
     }
 }

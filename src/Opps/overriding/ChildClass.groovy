@@ -12,7 +12,7 @@ class ChildClass extends ParentClass {
         println("I am in Parent Sum Method")
     }
 
-    def sum(a, b) {
+    def static sum(a, b) {
         println("I am in Parent Sum Method")
         println(a + b)
     }

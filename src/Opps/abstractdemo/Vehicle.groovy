@@ -2,11 +2,11 @@ package Opps.abstractdemo
 
 abstract class Vehicle {
 
-    def seats() {
+    def static seats() {
         println("5 seats vehicle")
     }
 
-    def wheels() {
+    def static wheels() {
         println("4 wheels vehicle")
     }
 

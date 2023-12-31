@@ -14,11 +14,11 @@ class AdvancedCalculator extends Calculator {
         println(ac.solorPowered)
     }
 
-    def multiply() {
+    def static multiply() {
         println("Multiplying Numbers")
     }
 
-    def divide() {
+    def static divide() {
         println("Dividing the numbers")
     }
 }

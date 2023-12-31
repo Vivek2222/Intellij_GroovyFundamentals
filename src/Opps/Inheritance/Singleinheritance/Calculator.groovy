@@ -6,11 +6,11 @@ class Calculator {
     def solorPowered = "true"
     private price = 100
 
-    def add() {
+    def static add() {
         println("Adding the number")
     }
 
-    def subtract() {
+    def static subtract() {
         println("Subtracting the numbers")
     }
 }
