@@ -9,6 +9,12 @@ class ClosureAnyAndEvery {
         at least on element
         every -> all the elements
          */
-        def list
+        def list = [10, 20, 30, 40, 50]
+
+        println list.any { it -> it > 30 }//true
+        println list.any { el -> el == 60 }//false
+
+        println list.every { el -> el > 30 }//false
+        println list.every { el -> el > 5 }//true
     }
 }

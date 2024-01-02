@@ -8,5 +8,8 @@
     <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="groovy-4.0.2" level="project" />
+    <orderEntry type="library" exported="" name="poi-5.2.3" level="project" />
+    <orderEntry type="library" exported="" name="commons-codec-1.15" level="project" />
+    <orderEntry type="library" exported="" name="commons-compress-1.21" level="project" />
   </component>
 </module>
