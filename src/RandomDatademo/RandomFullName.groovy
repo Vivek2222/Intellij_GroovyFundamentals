@@ -1,6 +1,8 @@
 package RandomDatademo
 
 class RandomFullName {
+
+    //This all keywords we can use it in the Katalon Automation
     // Generate a random FullName 1
     //@Keyword
     def GenerateFullName() {
