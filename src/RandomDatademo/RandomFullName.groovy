@@ -34,5 +34,16 @@ class RandomFullName {
         }
         return FullName2
     }
+    // Generate today's date
+    //@Keyword
+    def GenerateTodaysDate() {
+        // Get the current date
+        def date = new Date()
+
+        // Format the date as YYYY-MM-DD
+        String formattedDate = String.format("%tF", date)
+
+        return formattedDate
+    }
 
 }
