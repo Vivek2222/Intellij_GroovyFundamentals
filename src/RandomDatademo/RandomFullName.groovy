@@ -45,5 +45,20 @@ class RandomFullName {
 
         return formattedDate
     }
+    // Select leap years
+    @Keyword
+    def selectLeapYears(int startYear, int endYear) {
+        def leapYears = []
+
+        // Iterate through the range of years
+        for (int year = startYear; year <= endYear; year++) {
+            // Check if the year is a leap year
+            if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+                leapYears.add(year)
+            }
+        }
+
+        return leapYears
+    }
 
 }
