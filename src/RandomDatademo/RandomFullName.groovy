@@ -61,4 +61,23 @@ class RandomFullName {
         return leapYears
     }
 
+    // Generate first, middle, and last names
+    @Keyword
+    def generateFullName() {
+        // List of sample first names, middle names, and last names
+        def firstNames = ["John", "Emma", "Michael", "Sophia", "David", "Olivia"]
+        def middleNames = ["James", "Marie", "Alexander", "Grace", "William", "Rose"]
+        def lastNames = ["Smith", "Johnson", "Brown", "Taylor", "Anderson", "Williams"]
+
+        // Randomly pick a first name, middle name, and last name
+        String firstName = firstNames[(int) (Math.random() * firstNames.size())]
+        String middleName = middleNames[(int) (Math.random() * middleNames.size())]
+        String lastName = lastNames[(int) (Math.random() * lastNames.size())]
+
+        // Combine the first, middle, and last names
+        String fullName = "$firstName $middleName $lastName"
+
+        return fullName
+    }
+
 }
