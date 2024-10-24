@@ -15,6 +15,9 @@ public class Calculator {
                 case "":
                     return operate((a,b)->ab,first,second);
                 case "/":
+                    if (second == 0) {
+                        throw new ArithmeticException("Cannot divide by zero.");
+                    }
                     return operate((a,b)->a/b,first,second);
                 case "^":
                     return operate((a,b)->{
