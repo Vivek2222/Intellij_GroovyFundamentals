@@ -1,4 +1,3 @@
-
 import Main1;
 public class Calculator {
         @FunctionalInterface
