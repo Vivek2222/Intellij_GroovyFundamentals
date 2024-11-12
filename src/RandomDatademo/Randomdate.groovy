@@ -1,4 +1,5 @@
 package RandomDatademo
+
 import java.time.LocalDate
 
 class RandomDate {
@@ -8,7 +9,7 @@ class RandomDate {
         long startEpochDay = startDate.toEpochDay()
         long endEpochDay = endDate.toEpochDay()
 
-        long randomEpochDay = startEpochDay + (long)(Math.random() * (endEpochDay - startEpochDay + 1))
+        long randomEpochDay = startEpochDay + (long) (Math.random() * (endEpochDay - startEpochDay + 1))
 
         return LocalDate.ofEpochDay(randomEpochDay)
     }
