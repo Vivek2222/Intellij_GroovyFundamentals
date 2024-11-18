@@ -15,6 +15,7 @@ class Randomdatesample {
         String formattedDateTime = randomDate.format(formatter);
         return formattedDateTime
     }
+
     def String BirthDate() {
         //Creates 20 year old birth date
         //Available date formats: MMddyyyyHHmmssSSS
