@@ -1,4 +1,5 @@
 package RandomDatademo
+
 import java.time.LocalDate;
 import java.util.Random;
 
@@ -20,6 +21,7 @@ class RandomEmail {
         int randomNo = (int) (Math.random() * 1000);
         return suffix + randomNo + "@" + prefix;
     }
+
     public static void main(String[] args) {
         String randomEmailAddress = getRandomizedEmailAddress("randomuser", "@example.com");
 //        System.out.println("Random Email Address: " + randomEmailAddress);
