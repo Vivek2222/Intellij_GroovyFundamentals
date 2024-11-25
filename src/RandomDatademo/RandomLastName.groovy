@@ -1,8 +1,10 @@
 package RandomDatademo
+
 import java.util.Random
 
 class RandomLastName {
     def alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
     def GenerateLastName() {
         Random rand = new Random()
         String generatedLastName = ''
@@ -12,6 +14,7 @@ class RandomLastName {
         }
         return generatedLastName
     }
+
     static void main(String[] args) {
         RandomLastName ref = new RandomLastName();
         println(ref.GenerateLastName())
