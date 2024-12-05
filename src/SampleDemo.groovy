@@ -1,7 +1,6 @@
 class SampleDemo {
 
-    static main(args)
-    {
-        println"Welcome Groovy"
+    static main(args) {
+        println "Welcome Groovy"
     }
 }
